@@ -1,0 +1,26 @@
+{
+  "name": "sql-node-api",
+  "version": "0.0.1",
+  "description": "SQL API implementation on Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo to-do",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.8"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "morgan": "^1.9.0",
+    "mssql": "^4.1.0"
+  }
+}
